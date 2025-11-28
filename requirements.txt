@@ -1,0 +1,7 @@
+playwright
+pytest-playwright
+google-generativeai
+pytest
+pytest-html
+python-dotenv
+pillow
