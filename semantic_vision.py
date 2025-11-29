@@ -20,7 +20,7 @@ class VisionTester:
 
     def capture_screenshot(self, page):
         """Captures a screenshot from the Playwright page and returns it as bytes."""
-        return page.screenshot()
+        return page.screenshot(full_page=True)
 
     def ask_ai(self, screenshot_bytes, prompt):
         """Sends the screenshot and prompt to Gemini and returns the response."""
